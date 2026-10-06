@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ethio Opportunity Hub</title>
+<meta name="description" content="A student-friendly directory of scholarships, STEM programs, competitions, conferences, internships, volunteering and courses for Ethiopian and African students.">
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--ink:#172033;--muted:#64748b;--line:#e2e8f0;--brand:#0f766e;--brand2:#115e59;--chip:#ecfdf5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+header{background:linear-gradient(135deg,#0f766e,#164e63);color:#fff;padding:44px 18px}
+.wrap{max-width:1150px;margin:auto}.hero{display:grid;gap:18px}.hero h1{font-size:clamp(30px,5vw,52px);margin:0}.hero p{max-width:800px;color:#dff7f2;font-size:17px}
+.search{display:flex;gap:10px;flex-wrap:wrap}.search input{flex:1;min-width:220px;padding:14px 16px;border:0;border-radius:12px;font-size:16px}.btn{padding:12px 16px;border:0;border-radius:10px;background:#fff;color:var(--brand2);font-weight:700;cursor:pointer}
+nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line)}nav .wrap{display:flex;gap:18px;padding:12px 18px;overflow:auto}nav a{color:var(--ink);text-decoration:none;white-space:nowrap;font-weight:700}
+main{padding:28px 18px}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:25px}.stat,.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}.stat b{font-size:26px;display:block}
+.controls{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:10px;margin-bottom:18px}.controls input,.controls select{padding:12px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}.card h3{margin:0 0 7px;font-size:18px}.meta{color:var(--muted);font-size:13px}.tag{display:inline-block;background:var(--chip);color:#065f46;border-radius:999px;padding:4px 9px;font-size:12px;font-weight:700;margin:4px 4px 4px 0}
+.card a{display:inline-block;margin-top:12px;color:var(--brand2);font-weight:800}.empty{padding:30px;text-align:center;color:var(--muted)}
+.notice{background:#fff7ed;border:1px solid #fed7aa;padding:14px;border-radius:12px;margin:15px 0}.source-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px}.source-list a{background:#fff;border:1px solid var(--line);padding:12px;border-radius:10px;text-decoration:none;color:var(--ink)}
+footer{padding:30px 18px;color:var(--muted);text-align:center}
+@media(max-width:750px){.controls{grid-template-columns:1fr}.search .btn{width:100%}}
+</style>
+</head>
+<body>
+<header><div class="wrap hero">
+<h1>Ethio Opportunity Hub</h1>
+<p>Find scholarships, STEM programs, competitions, conferences, internships, volunteering and free courses. Built for Ethiopian students, with international opportunities included.</p>
+<div class="search"><input id="heroSearch" placeholder="Search scholarships, coding, conference, Ethiopia..."><button class="btn" onclick="goSearch()">Search opportunities</button></div>
+</div></header>
+<nav><div class="wrap"><a href="#opportunities">Opportunities</a><a href="#sources">100+ Sources</a><a href="#about">How updates work</a></div></nav>
+<main class="wrap">
+<section class="stats">
+<div class="stat"><b id="count">0</b>Total links</div>
+<div class="stat"><b id="cats">0</b>Categories</div>
+<div class="stat"><b>Auto</b>GitHub updates</div>
+<div class="stat"><b id="updated">—</b>Last data update</div>
+</section>
+
+<section id="opportunities">
+<h2>Opportunities</h2>
+<div class="controls">
+<input id="q" placeholder="Search by title, country or category">
+<select id="category"><option value="">All categories</option></select>
+<select id="funding"><option value="">All funding</option><option>Fully funded</option><option>Free</option><option>Scholarship</option><option>Fee required</option></select>
+<select id="sort"><option value="new">Newest checked</option><option value="title">Title A–Z</option></select>
+</div>
+<div id="cards" class="grid"></div>
+</section>
+
+<section id="sources" style="margin-top:38px">
+<h2>100+ Opportunity Sources</h2>
+<div class="notice"><b>Important:</b> source links are starting points. Always open the official page and check age, nationality, deadline and funding before applying.</div>
+<div id="sourceList" class="source-list"></div>
+</section>
+
+<section id="about" style="margin-top:38px">
+<h2>How the automatic update works</h2>
+<p>This site is static, but GitHub Actions can run a scheduled updater. The updater refreshes the data file, removes expired items when dates are known, adds new feed items, and commits the changed JSON. GitHub Pages then serves the updated site.</p>
+<p><b>Last checked:</b> <span id="footerUpdated">—</span></p>
+</section>
+</main>
+<footer>Ethio Opportunity Hub • Verify every opportunity on its official provider page.</footer>
+<script>
+let DATA={opportunities:[],sources:[]};
+const $=id=>document.getElementById(id);
+function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function populate(){
+ const cats=[...new Set(DATA.opportunities.map(x=>x.category).concat(DATA.sources.map(x=>x.category)))].sort();
+ $('category').innerHTML='<option value="">All categories</option>'+cats.map(x=>`<option>${esc(x)}</option>`).join('');
+ $('count').textContent=DATA.opportunities.length+DATA.sources.length;
+ $('cats').textContent=cats.length;
+ $('updated').textContent=DATA.lastUpdated||'—'; $('footerUpdated').textContent=DATA.lastUpdated||'—';
+ render();
+ $('sourceList').innerHTML=DATA.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.title)}</b><br><span class="meta">${esc(x.category)} • official/source page</span></a>`).join('');
+}
+function render(){
+ const q=$('q').value.toLowerCase().trim(), cat=$('category').value, fund=$('funding').value;
+ let arr=DATA.opportunities.filter(x=>{
+   const hay=[x.title,x.category,x.country,x.funding,x.age].join(' ').toLowerCase();
+   return (!q||hay.includes(q))&&(!cat||x.category===cat)&&(!fund||x.funding===fund);
+ });
+ if($('sort').value==='title')arr.sort((a,b)=>a.title.localeCompare(b.title));
+ else arr.sort((a,b)=>String(b.verified).localeCompare(String(a.verified)));
+ $('cards').innerHTML=arr.length?arr.map(x=>`<article class="card">
+ <span class="tag">${esc(x.category)}</span> <span class="tag">${esc(x.funding)}</span>
+ <h3>${esc(x.title)}</h3><div class="meta">${esc(x.country)} • ${esc(x.age)}</div>
+ <p><b>Deadline:</b> ${esc(x.deadline||'Check official page')}</p>
+ <a href="${esc(x.url)}" target="_blank" rel="noopener">Open official/source page →</a>
+ </article>`).join(''):'<div class="empty">No matching opportunities. Try another search or category.</div>';
+}
+async function load(){
+ try{const r=await fetch('data/opportunities.json',{cache:'no-store'});DATA=await r.json();populate();}
+ catch(e){$('cards').innerHTML='<div class="empty">Data could not be loaded. Make sure data/opportunities.json is in the repository.</div>'}
+}
+function goSearch(){ $('q').value=$('heroSearch').value; document.querySelector('#opportunities').scrollIntoView({behavior:'smooth'});render(); }
+['q','category','funding','sort'].forEach(id=>$(id).addEventListener('input',render));
+load();
+</script>
+</body>
+</html>

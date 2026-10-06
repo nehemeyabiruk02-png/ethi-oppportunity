@@ -1,0 +1,1015 @@
+{
+  "lastUpdated": "2026-10-06",
+  "opportunities": [
+    {
+      "title": "AddisCoder Summer 2027",
+      "category": "STEM & Coding",
+      "country": "Ethiopia",
+      "funding": "Fully funded",
+      "age": "High school grades 9–11",
+      "deadline": "2026-12-31",
+      "url": "https://www.addiscoder.com/",
+      "source": "Official program",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "2027 Global Korea Scholarship — Undergraduate",
+      "category": "Scholarships",
+      "country": "South Korea",
+      "funding": "Fully funded",
+      "age": "International high-school graduates / expected graduates",
+      "deadline": "",
+      "url": "https://www.studyinkorea.go.kr/en/plan/scholarship.do",
+      "source": "Korean Government",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Ethiopian Coders Initiative",
+      "category": "STEM & Coding",
+      "country": "Ethiopia / Online",
+      "funding": "Free",
+      "age": "Students / learners",
+      "deadline": "Rolling",
+      "url": "https://ethiocoders.et/",
+      "source": "Official program",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Mesob Coding",
+      "category": "STEM & Coding",
+      "country": "Ethiopia / Online",
+      "funding": "Free",
+      "age": "Beginners / students",
+      "deadline": "Rolling / cohort based",
+      "url": "https://mesobcoding.org/",
+      "source": "Official program",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "AFS Global STEM Academies",
+      "category": "Youth Programs",
+      "country": "Global (eligible countries vary)",
+      "funding": "Scholarship / funded",
+      "age": "15–17.5 for 2027 (subject to final rules)",
+      "deadline": "Fall 2026 opening",
+      "url": "https://www.afsusa.org/afs-global-stem-academies/",
+      "source": "AFS",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Yale Model African Union VI",
+      "category": "Conferences & Events",
+      "country": "Ethiopia",
+      "funding": "Fee required",
+      "age": "16–25",
+      "deadline": "2027-02-01",
+      "url": "https://www.yalemodelau.org/registration",
+      "source": "Official YMAU",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "All Star Code Summer Intensive 2027",
+      "category": "STEM & Coding",
+      "country": "USA / program eligibility applies",
+      "funding": "Free tuition",
+      "age": "High school students",
+      "deadline": "2027-01-31 opening",
+      "url": "https://allstarcode.org/apply/",
+      "source": "Official program",
+      "verified": "2026-10-06"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Global Korea Scholarship (GKS)",
+      "category": "Scholarships",
+      "url": "https://www.studyinkorea.go.kr/en/plan/scholarship.do",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Türkiye Scholarships",
+      "category": "Scholarships",
+      "url": "https://www.turkiyeburslari.gov.tr/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Stipendium Hungaricum",
+      "category": "Scholarships",
+      "url": "https://stipendiumhungaricum.hu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "DAAD Scholarships",
+      "category": "Scholarships",
+      "url": "https://www.daad.de/en/studying-in-germany/scholarships/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Study in Japan Scholarships",
+      "category": "Scholarships",
+      "url": "https://www.studyinjapan.go.jp/en/search-for-scholarships/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Erasmus+ Opportunities",
+      "category": "Scholarships",
+      "url": "https://erasmus-plus.ec.europa.eu/opportunities",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "EducationUSA Financial Aid",
+      "category": "Scholarships",
+      "url": "https://educationusa.state.gov/your-5-steps-us-study/finance-your-studies",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "International Scholarships",
+      "category": "Scholarships",
+      "url": "https://www.iefa.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Fastweb Scholarships",
+      "category": "Scholarships",
+      "url": "https://www.fastweb.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "BigFuture Scholarships",
+      "category": "Scholarships",
+      "url": "https://bigfuture.collegeboard.org/pay-for-college/scholarship-search",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Scholarship America",
+      "category": "Scholarships",
+      "url": "https://scholarshipamerica.org/students/browse-scholarships/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "International Student Scholarships",
+      "category": "Scholarships",
+      "url": "https://www.internationalstudent.com/scholarships/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Atenu Scholarships",
+      "category": "Scholarships",
+      "url": "https://scholarships.atenu.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "EthioScholarship",
+      "category": "Scholarships",
+      "url": "https://scholarship.et/opportunities",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Opportunities for Africans",
+      "category": "Scholarships",
+      "url": "https://www.opportunitiesforafricans.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "After School Africa Scholarships",
+      "category": "Scholarships",
+      "url": "https://www.afterschoolafrica.com/scholarship/by-country/africa/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Opportunity Desk",
+      "category": "Scholarships",
+      "url": "https://opportunitydesk.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Scholarship Positions",
+      "category": "Scholarships",
+      "url": "https://www.scholarshippositions.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Scholarship Roar",
+      "category": "Scholarships",
+      "url": "https://scholarshiproar.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "ScholarshipTab",
+      "category": "Scholarships",
+      "url": "https://www.scholarshiptab.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Harvard Financial Aid",
+      "category": "University Aid",
+      "url": "https://college.harvard.edu/financial-aid",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "MIT Student Financial Services",
+      "category": "University Aid",
+      "url": "https://sfs.mit.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Yale Financial Aid",
+      "category": "University Aid",
+      "url": "https://finaid.yale.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Princeton Financial Aid",
+      "category": "University Aid",
+      "url": "https://finaid.princeton.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Amherst Financial Aid",
+      "category": "University Aid",
+      "url": "https://www.amherst.edu/admission/financial_aid",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Bowdoin Financial Aid",
+      "category": "University Aid",
+      "url": "https://www.bowdoin.edu/admissions/affordability/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Williams Financial Aid",
+      "category": "University Aid",
+      "url": "https://www.williams.edu/financial-aid/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Dartmouth Financial Aid",
+      "category": "University Aid",
+      "url": "https://financialaid.dartmouth.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Brown Financial Aid",
+      "category": "University Aid",
+      "url": "https://finaid.brown.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Columbia Financial Aid",
+      "category": "University Aid",
+      "url": "https://undergrad.admissions.columbia.edu/affordability",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Cornell Financial Aid",
+      "category": "University Aid",
+      "url": "https://finaid.cornell.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Duke Financial Aid",
+      "category": "University Aid",
+      "url": "https://financialaid.duke.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Emory Financial Aid",
+      "category": "University Aid",
+      "url": "https://studentaid.emory.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Vanderbilt Financial Aid",
+      "category": "University Aid",
+      "url": "https://www.vanderbilt.edu/financialaid/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "University of Chicago Financial Aid",
+      "category": "University Aid",
+      "url": "https://college.uchicago.edu/financial-aid",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Northwestern Financial Aid",
+      "category": "University Aid",
+      "url": "https://undergradaid.northwestern.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Rice Financial Aid",
+      "category": "University Aid",
+      "url": "https://financialaid.rice.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Tufts Financial Aid",
+      "category": "University Aid",
+      "url": "https://students.tufts.edu/financial-aid",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Colby Financial Aid",
+      "category": "University Aid",
+      "url": "https://www.colby.edu/admission/apply/financial-aid/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Berea International Students",
+      "category": "University Aid",
+      "url": "https://www.berea.edu/admissions/international/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "AddisCoder",
+      "category": "STEM & Coding",
+      "url": "https://www.addiscoder.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Ethiopian Coders Initiative",
+      "category": "STEM & Coding",
+      "url": "https://ethiocoders.et/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Mesob Coding",
+      "category": "STEM & Coding",
+      "url": "https://mesobcoding.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "CS50",
+      "category": "STEM & Coding",
+      "url": "https://cs50.harvard.edu/x/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "freeCodeCamp",
+      "category": "STEM & Coding",
+      "url": "https://www.freecodecamp.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Khan Academy Computing",
+      "category": "STEM & Coding",
+      "url": "https://www.khanacademy.org/computing",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "MIT OpenCourseWare",
+      "category": "STEM & Coding",
+      "url": "https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Google for Developers",
+      "category": "STEM & Coding",
+      "url": "https://developers.google.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Microsoft Learn",
+      "category": "STEM & Coding",
+      "url": "https://learn.microsoft.com/training/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "IBM SkillsBuild",
+      "category": "STEM & Coding",
+      "url": "https://skillsbuild.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Cisco Networking Academy",
+      "category": "STEM & Coding",
+      "url": "https://www.netacad.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "AWS Educate",
+      "category": "STEM & Coding",
+      "url": "https://aws.amazon.com/education/awseducate/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Oracle Academy",
+      "category": "STEM & Coding",
+      "url": "https://academy.oracle.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "GitHub Education",
+      "category": "STEM & Coding",
+      "url": "https://education.github.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Girls Who Code",
+      "category": "STEM & Coding",
+      "url": "https://girlswhocode.com/programs",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Code.org Student Opportunities",
+      "category": "STEM & Coding",
+      "url": "https://code.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "All Star Code",
+      "category": "STEM & Coding",
+      "url": "https://allstarcode.org/apply/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "AFRISTEM",
+      "category": "STEM & Coding",
+      "url": "https://afristemglobal.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Technovation Girls",
+      "category": "STEM & Coding",
+      "url": "https://technovationchallenge.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "International Olympiad in Informatics",
+      "category": "Competitions",
+      "url": "https://ioinformatics.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Google Code-in Archive / Google Coding Resources",
+      "category": "Competitions",
+      "url": "https://developers.google.com/community/gdsc",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "NASA Student Challenges",
+      "category": "Competitions",
+      "url": "https://www.nasa.gov/learning-resources/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "NASA Space Apps Challenge",
+      "category": "Competitions",
+      "url": "https://www.spaceappschallenge.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "FIRST Robotics",
+      "category": "Competitions",
+      "url": "https://www.firstinspires.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Conrad Challenge",
+      "category": "Competitions",
+      "url": "https://www.conradchallenge.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Diamond Challenge",
+      "category": "Competitions",
+      "url": "https://diamondchallenge.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Breakthrough Junior Challenge",
+      "category": "Competitions",
+      "url": "https://breakthroughjuniorchallenge.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Regeneron ISEF",
+      "category": "Competitions",
+      "url": "https://www.societyforscience.org/isef/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "International Physics Olympiad",
+      "category": "Competitions",
+      "url": "https://www.ipho-new.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "International Chemistry Olympiad",
+      "category": "Competitions",
+      "url": "https://www.icho2026.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "International Biology Olympiad",
+      "category": "Competitions",
+      "url": "https://www.ibo-info.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "International Mathematical Olympiad",
+      "category": "Competitions",
+      "url": "https://www.imo-official.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Google Science Fair Archive",
+      "category": "Competitions",
+      "url": "https://www.google.com/intl/en_us/edu/sciencefair/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Microsoft Imagine Cup",
+      "category": "Competitions",
+      "url": "https://imaginecup.microsoft.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Kaggle Competitions",
+      "category": "Competitions",
+      "url": "https://www.kaggle.com/competitions",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Hack Club",
+      "category": "Competitions",
+      "url": "https://hackclub.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "AFS Global STEM Academies",
+      "category": "Youth Programs",
+      "url": "https://www.afsusa.org/afs-global-stem-academies/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Yale Model African Union",
+      "category": "Youth Programs",
+      "url": "https://www.yalemodelau.org/registration",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "United World Colleges",
+      "category": "Youth Programs",
+      "url": "https://www.uwc.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "AIESEC Youth Opportunities",
+      "category": "Youth Programs",
+      "url": "https://aiesec.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UNICEF Youth",
+      "category": "Youth Programs",
+      "url": "https://www.unicef.org/innovation/youth",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UN Youth Opportunities",
+      "category": "Youth Programs",
+      "url": "https://www.un.org/en/get-involved",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "World Bank Youth",
+      "category": "Youth Programs",
+      "url": "https://www.worldbank.org/en/topic/youth",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "African Union Youth",
+      "category": "Youth Programs",
+      "url": "https://au.int/en/youth",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "British Council Ethiopia",
+      "category": "Youth Programs",
+      "url": "https://www.britishcouncil.et/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "U.S. Embassy Ethiopia",
+      "category": "Youth Programs",
+      "url": "https://et.usembassy.gov/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "American Spaces",
+      "category": "Youth Programs",
+      "url": "https://americanspaces.state.gov/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Ethiopian Red Cross",
+      "category": "Youth Programs",
+      "url": "https://redcrosseth.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Junior Achievement",
+      "category": "Youth Programs",
+      "url": "https://www.jaworldwide.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "WorldSkills",
+      "category": "Youth Programs",
+      "url": "https://worldskills.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Youth Opportunities Africa",
+      "category": "Youth Programs",
+      "url": "https://youthop.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Global Youth Mobilization",
+      "category": "Youth Programs",
+      "url": "https://globalyouthmobilization.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Yale Model African Union",
+      "category": "Conferences & Events",
+      "url": "https://www.yalemodelau.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Harvard Model United Nations",
+      "category": "Conferences & Events",
+      "url": "https://www.harvardmun.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "WorldMUN",
+      "category": "Conferences & Events",
+      "url": "https://www.worldmun.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "THIMUN",
+      "category": "Conferences & Events",
+      "url": "https://thehague.thimun.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Global Model United Nations",
+      "category": "Conferences & Events",
+      "url": "https://www.un.org/en/mun",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "One Young World",
+      "category": "Conferences & Events",
+      "url": "https://www.oneyoungworld.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Youth4Climate",
+      "category": "Conferences & Events",
+      "url": "https://www.youth4climate.info/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UNESCO Youth",
+      "category": "Conferences & Events",
+      "url": "https://www.unesco.org/en/youth",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "IEEE Student Opportunities",
+      "category": "Conferences & Events",
+      "url": "https://students.ieee.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "ACM Student Chapters",
+      "category": "Conferences & Events",
+      "url": "https://www.acm.org/chapters/students",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UNESCO Careers",
+      "category": "Internships & Research",
+      "url": "https://careers.unesco.org/search/?q=internships",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UN Careers",
+      "category": "Internships & Research",
+      "url": "https://careers.un.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "World Bank Internships",
+      "category": "Internships & Research",
+      "url": "https://www.worldbank.org/en/about/careers/programs-and-internships",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "IMF Internships",
+      "category": "Internships & Research",
+      "url": "https://www.imf.org/en/About/Recruitment",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "African Development Bank Careers",
+      "category": "Internships & Research",
+      "url": "https://www.afdb.org/en/about-us/careers",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Google Students",
+      "category": "Internships & Research",
+      "url": "https://buildyourfuture.withgoogle.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Microsoft Students",
+      "category": "Internships & Research",
+      "url": "https://careers.microsoft.com/students/us/en",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Meta University / Students",
+      "category": "Internships & Research",
+      "url": "https://www.metacareers.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "NVIDIA University Recruiting",
+      "category": "Internships & Research",
+      "url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "IBM Careers Students",
+      "category": "Internships & Research",
+      "url": "https://www.ibm.com/careers/students",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UNICEF Careers",
+      "category": "Internships & Research",
+      "url": "https://jobs.unicef.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "WHO Careers",
+      "category": "Internships & Research",
+      "url": "https://www.who.int/careers",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "FAO Careers",
+      "category": "Internships & Research",
+      "url": "https://www.fao.org/employment/en/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UNDP Jobs",
+      "category": "Internships & Research",
+      "url": "https://jobs.undp.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "IAEA Careers",
+      "category": "Internships & Research",
+      "url": "https://www.iaea.org/about/employment",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "edX",
+      "category": "Courses & Certificates",
+      "url": "https://www.edx.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Coursera",
+      "category": "Courses & Certificates",
+      "url": "https://www.coursera.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "FutureLearn",
+      "category": "Courses & Certificates",
+      "url": "https://www.futurelearn.com/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "OpenLearn",
+      "category": "Courses & Certificates",
+      "url": "https://www.open.edu/openlearn/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "MIT OCW",
+      "category": "Courses & Certificates",
+      "url": "https://ocw.mit.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Harvard Online",
+      "category": "Courses & Certificates",
+      "url": "https://pll.harvard.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Stanford Online",
+      "category": "Courses & Certificates",
+      "url": "https://online.stanford.edu/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Google Career Certificates",
+      "category": "Courses & Certificates",
+      "url": "https://grow.google/certificates/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UN CC:e-Learn",
+      "category": "Courses & Certificates",
+      "url": "https://unccelearn.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UN Volunteers",
+      "category": "Volunteering",
+      "url": "https://app.unv.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UN Online Volunteering",
+      "category": "Volunteering",
+      "url": "https://app.unv.org/opportunities",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Red Cross Volunteering",
+      "category": "Volunteering",
+      "url": "https://www.ifrc.org/get-involved/volunteer",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Amnesty Youth",
+      "category": "Volunteering",
+      "url": "https://www.amnesty.org/en/get-involved/youth/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "UNICEF Volunteers",
+      "category": "Volunteering",
+      "url": "https://www.unicef.org/careers/volunteers",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "Idealist Opportunities",
+      "category": "Volunteering",
+      "url": "https://www.idealist.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    },
+    {
+      "title": "VolunteerMatch",
+      "category": "Volunteering",
+      "url": "https://www.volunteermatch.org/",
+      "type": "source",
+      "verified": "2026-10-06"
+    }
+  ]
+}
